@@ -8,8 +8,15 @@
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-soft-pink: #ff6b81;
+  --color-peach: #ffac8a;
+  --color-mint-green: #8fb39a;
+  --color-cream: #fff3e6;
+  --color-deep-brown: #5a4742;
+  --color-hot-pink-hover: #e55270;
+  --color-soft-gray: #c7b8b4;
+  --color-shadow-peach: #ffe1cc;
+  --color-dark-gray: #696969;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -19,8 +26,16 @@
   }
 }
 
+.font-nunito {
+  font-family: var(--font-nunito), sans-serif;
+}
+
+.font-baloo2 {
+  font-family: var(--font-baloo2), sans-serif;
+}
+
 body {
-  background: var(--background);
+  background: var(--color-cream);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-nunito);
 }
