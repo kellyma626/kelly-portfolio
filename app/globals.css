@@ -35,7 +35,7 @@
 }
 
 body {
-  background: var(--color-fadedgit -white);
+  background: var(--color-faded-white);
   color: var(--foreground);
   font-family: var(--font-nunito);
 }
