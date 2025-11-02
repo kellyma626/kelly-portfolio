@@ -10,7 +10,7 @@ export default function Experience() {
           Experience
         </div>
         <div className="border h-px border-soft-gray w-full" />
-        <Image src={Miffy2} alt="Miffy" width={65} height={65} />
+        <Image src={Miffy2} alt="Miffy" width={120} height={120} className="w-17" />
       </div>
       {experience.map((exp, idx) => (
         <div key={idx} className="flex flex-col gap-4">
@@ -18,9 +18,9 @@ export default function Experience() {
             <Image
               src={exp.image}
               alt={exp.company}
-              width={48}
-              height={48}
-              className="rounded-lg mr-4"
+              width={96}
+              height={96}
+              className="w-12 h-12 rounded-lg mr-4"
             />
             <div className="flex flex-col">
               <p className="text-xl font-semibold">{exp.role}</p>

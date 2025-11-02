@@ -1,7 +1,7 @@
 export const experience = [
   {
     role: "Machine Learning Fellow",
-    company: "Fitch Group",
+    company: "Fitch Group, Inc.",
     date: "Aug 2025 – Present",
     location: "Remote",
     image: "/logos/fitchgroup-logo.jpeg",
@@ -9,6 +9,18 @@ export const experience = [
       "Built ML models (Logistic Regression, Random Forests, XGBoost) on accounting time-series data from 8,000+ U.S. companies (1999–2018) for corporate bankruptcy prediction, supporting Fitch in credit risk assessment.",
       "Performed feature engineering and handled class imbalance, optimizing AUC-ROC, F1, and Type II error metrics.",
       "Collaborated weekly with teammates and Fitch stakeholders to translate findings into actionable insights.",
+    ],
+  },
+  {
+    role: "L’SPACE Lead Engineer",
+    company: "National Aeronautics and Space Administration (NASA)",
+    date: "Aug 2025 – Present",
+    location: "Remote",
+    image: "/logos/nasa-logo.png",
+    bullets: [
+      "Researched AI and control methods (PID, MPC-lite, reinforcement learning) for adaptive moisture and nutrient management in microgravity plant systems.",
+      "Contributed to a competitive $10K NASA seed funding proposal, evaluating technical feasibility and alignment with NASA research priorities.",
+      "Authored proposal content collaboratively with 5 subject matter experts to synthesize findings and present deliverables to NASA reviewers.",
     ],
   },
   {
@@ -26,13 +38,13 @@ export const experience = [
   {
     role: "Undergraduate Research Assistant",
     company: "University of California, Riverside (UCR)",
-    date: "Oct 2024 – Dec 2024",
+    date: "Oct 2024 – Present",
     location: "Riverside, CA",
     image: "/logos/ucr-logo.png",
     bullets: [
-      "Analyzed 7 papers on AI-generated code detection in CS education to identify gaps that guided research direction.",
-      "Applied tokenization, embeddings, and transformer models via HuggingFace for code and text classification.",
-      "Collaborated weekly with faculty and Ph.D. mentors to refine methodology and interpret findings.",
+      "Implemented models (Random Forests, SVM, XGBoost, MLP, Ensemble Voter) to classify 3,360 samples of student vs AI-generated code using TF-IDF and CodeBERT embeddings.",
+      "Supported academic integrity research in early CS education through experimental design and performance evaluation.",
+      "Collaborated weekly with faculty and Ph.D. mentors to refine experimental methodology and interpret findings.",
     ],
   },
 ];

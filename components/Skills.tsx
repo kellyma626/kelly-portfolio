@@ -10,7 +10,7 @@ export default function Skills() {
           Skills
         </div>
         <div className="border h-px border-soft-gray w-full" />
-        <Image src={Miffy} alt="Miffy" width={60} height={60} />
+        <Image src={Miffy} alt="Miffy" width={120} height={120} className="w-15" />
       </div>
 
       <div className="flex flex-wrap gap-5 justify-center mt-5">
@@ -22,9 +22,9 @@ export default function Skills() {
             <Image
               src={image}
               alt={name}
-              width={40}
-              height={40}
-              className="rounded-lg object-contain"
+              width={80}
+              height={80}
+              className="w-10 h-10 rounded-lg object-contain"
             />
             <p className="text-sm mt-2 text-gray-600">{name}</p>
           </div>

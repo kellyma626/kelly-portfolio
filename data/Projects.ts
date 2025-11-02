@@ -3,14 +3,15 @@ export const projects = [
     id: "winc",
     title: "Women in Computing Website",
     tech: "React.js, Next.js, Tailwind CSS, GitHub",
-    date: "October 2023 - December 2023",
+    date: "October 2023 – December 2023",
+    image: "misc/cutie-preview.png",
     screen2: [
-      "Developed a responsive website for Women in Computing at UCR to showcase club info",
-      "Used GitHub Issues to organize work and collaborated through weekly Agile scrum meetings",
+      "Developed a responsive website for Women in Computing at UCR to showcase club events, leadership, and opportunities.",
+      "Coordinated with 9 developers in weekly Agile scrums to prioritize features and enhance mobile responsiveness.",
     ],
     screen3: {
       points: [
-        "Identified recurring production inconsistencies caused by hardcoded event data; implemented dynamic component generation, removed 250+ lines of redundant code, and initiated a broader cleanup across the codebase",
+        "Identified recurring production inconsistencies from hardcoded event data; developed reusable components to automate rendering, removed 250+ lines of redundant code, and initiated a broader cleanup across the codebase.",
       ],
       links: [
         { href: "https://winc.cs.ucr.edu/", img: "misc/www.png" },
@@ -25,14 +26,15 @@ export const projects = [
     id: "hsp",
     title: "Highlander Space Program Website",
     tech: "React.js, Next.js, Tailwind CSS, GitHub",
-    date: "January 2024 - March 2024",
+    date: "January 2024 – March 2024",
+    image: "misc/cutie-preview.png",
     screen2: [
-      "Helped develop a static site for the Highlander Space Program to share projects, events, and contact info",
+      "Developed a responsive website for Highlander Space Program at UCR to showcase club events, leadership, and opportunities.",
     ],
     screen3: {
       points: [
-        "Built a reusable Footer component with club logo, contact text, and social icons using a 2-column + 3-column grid layout in Tailwind",
-        "Prioritized consistent design and reusability—this footer was used across all pages of the site",
+        "Coordinated with 9 developers in weekly Agile scrums to prioritize features and enhance mobile responsiveness.",
+        "Built a reusable Footer component with club logo, contact text, and social icons using a responsive grid layout.",
       ],
       links: [
         { href: "https://hsp.ucrhighlanders.org/", img: "misc/www.png" },
@@ -43,19 +45,18 @@ export const projects = [
       ],
     },
   },
-  {
+    {
     id: "cave",
-    title: "Cave Adventure RPG",
-    tech: "C++, GoogleTest, GitHub, Valgrind, GDB, Gcov, Lcov",
-    date: "October 2024 - December 2024",
+    title: "Cave Adventure - Terminal-Based C++ Game",
+    tech: "C++, GitHub, GitHub Actions, GoogleTest",
+    date: "October 2024 – December 2024",
+    image: "misc/cutie-preview.png",
     screen2: [
-      "Collaborated with a team of 5 to build a turn-based RPG game in C++ using Agile workflows and weekly scrums",
-      "Designed an abstract Item class and implemented Potion and Weapon subclasses to support flexible in-game item behavior via polymorphism",
+      "Engineered abstract Item classes and a vector-based inventory with polymorphism and dynamic memory.",
     ],
     screen3: {
       points: [
-        "Developed a vector-based inventory system with dynamic memory handling and custom destructors",
-        "Wrote 20+ unit tests with GoogleTest and integrated continuous testing using GitHub Actions and CMake",
+        "Ensured code quality via 20+ unit tests with GoogleTest, CI using GitHub Actions, and debugging/profiling tools.",
       ],
       links: [
         {
@@ -67,16 +68,17 @@ export const projects = [
   },
   {
     id: "cutie",
-    title: "cutieMood",
-    tech: "React Native, Expo, TypeScript, NativeWind, Supabase, Gemini API, Figma",
-    date: "July 2025 - August 2025",
+    title: "Cutie Mood - Mobile Mental Health App",
+    tech: "React Native, Expo, TypeScript, NativeWind, Supabase, GitHub, Figma",
+    date: "July 2025 – August 2025",
+    image: "misc/cutie-preview.png",
     screen2: [
-      "Spearheaded project vision and technical execution, architecting mood tracking, journaling, and AI chatbot integration.",
+      "Led project vision and technical execution, architecting features including mood tracking, journaling, and chatbot.",
     ],
     screen3: {
       points: [
-        "Designed all 5 screens, creating a cohesive, playful mobile UI with mood-based color mappings.",
         "Implemented Supabase flows for async mood entry creation and retrieval, managing 120+ entries seamlessly.",
+        "Designed all 5 screens, creating a cohesive, playful mobile UI with custom mood-to-image/color mappings."
       ],
       links: [
         {
@@ -86,4 +88,5 @@ export const projects = [
       ],
     },
   },
+
 ];

@@ -36,7 +36,7 @@ export default function Intro() {
         alt="Kelly"
         width={350}
         height={350}
-        className="rounded-2xl shadow-[0_8px_16px_0_var(--color-shadow-peach)]"
+        className="rounded-2xl shadow-[0_8px_16px_0_var(--color-shadow-peach)] border-2 border-ds-pink"
       />
 
       {/* Text + Icons */}

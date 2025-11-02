@@ -2,12 +2,14 @@
 
 import { useState } from "react";
 import { projects } from "@/data/Projects";
+import Image from "next/image";
+import Smiski from "@/public/drawings/smiski.png";
 
 export default function Projects() {
   const [active, setActive] = useState(projects[0]);
   return (
     <section id="projects">
-      <div className="flex justify-center items-center w-full gap-5">
+      <div className="flex justify-center items-center w-full gap-5 mb-10">
         <div className="font-baloo2 text-5xl font-bold text-soft-pink">
           Projects
         </div>
@@ -19,15 +21,17 @@ export default function Projects() {
         in migration.
       </div>
 
-      <div className="flex flex-col lg:flex-row">
+      <div className="flex flex-col lg:flex-row relative">
         {/* DS SECTION */}
+          {/* SMISKI sitting on top of DS */}
+          <Image src={Smiski} alt="Smiski" width={120} height={120}  className="absolute translate-x-110 -translate-y-28  z-30 w-25"/>
         <div className="flex flex-col items-center">
           {/* --- TOP DS SCREEN (screen1 + screen2) --- */}
           <div className="flex justify-center items-center border rounded-2xl w-152 h-72 bg-ds-pink border-deep-brown">
             <img src="2DS/holes.png" alt="holes left" className="h-44 mr-3" />
 
             {/* Inner top screen */}
-            <div className="rounded-2xl border border-soft-gray bg-cream w-104 h-60 mx-3 overflow-y-auto">
+            <div className="rounded-2xl border border-soft-gray bg-[#fff1ee] w-104 h-60 mx-3 overflow-y-auto">
               <div className="m-6 text-sm space-y-3">
                 {/* screen1 content */}
                 <div>
@@ -58,7 +62,7 @@ export default function Projects() {
             <img src="2DS/controls1.png" alt="controls1" className="h-44" />
 
             {/* screen3 content */}
-            <div className="rounded-2xl border border-soft-gray bg-cream w-104 h-60 mx-3 overflow-y-auto">
+            <div className="rounded-2xl border border-soft-gray bg-[#fff1ee] w-104 h-60 mx-3 overflow-y-auto">
               <div className="m-6 text-sm space-y-4">
                 <ul className="list-disc pl-4 space-y-1">
                   {active.screen3.points.map((p, i) => (
