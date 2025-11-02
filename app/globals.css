@@ -16,6 +16,7 @@
   --color-soft-gray: #c7b8b4;
   --color-shadow-peach: #ffe1cc;
   --color-dark-gray: #696969;
+  --color-faded-white: #fff7ed;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -34,7 +35,7 @@
 }
 
 body {
-  background: var(--color-cream);
+  background: var(--color-fadedgit -white);
   color: var(--foreground);
   font-family: var(--font-nunito);
 }
