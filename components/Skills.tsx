@@ -26,7 +26,7 @@ export default function Skills() {
               height={80}
               className="w-10 h-10 rounded-lg object-contain"
             />
-            <p className="text-sm mt-2 text-gray-600">{name}</p>
+            <p className="text-sm mt-2">{name}</p>
           </div>
         ))}
       </div>

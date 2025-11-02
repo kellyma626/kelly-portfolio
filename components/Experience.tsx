@@ -24,7 +24,7 @@ export default function Experience() {
             />
             <div className="flex flex-col">
               <p className="text-xl font-semibold">{exp.role}</p>
-              <p className="text-sm text-gray-600">
+              <p className="text-sm">
                 {exp.company} · {exp.location} · {exp.date}
               </p>
             </div>

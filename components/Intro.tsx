@@ -28,7 +28,7 @@ export default function Intro() {
   return (
     <section
       id="home"
-      className="flex flex-col md:flex-row items-center gap-12 text-gray-600"
+      className="flex flex-col md:flex-row items-center gap-12"
     >
       {/* Image */}
       <Image
