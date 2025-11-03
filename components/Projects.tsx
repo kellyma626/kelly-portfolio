@@ -31,11 +31,11 @@ export default function Projects() {
           alt="Smiski"
           width={100}
           height={100}
-          className="absolute translate-x-26 sm:translate-x-44 md:translate-x-50 md:-translate-y-26 lg:translate-x-80 -translate-y-13 lg:-translate-y-27 z-30 w-16 sm:w-20 md:w-24"
+          className="absolute translate-x-26 sm:translate-x-44 md:translate-x-50 md:-translate-y-27 lg:translate-x-80 -translate-y-18 lg:-translate-y-27 z-30 w-16 sm:w-20 md:w-24"
         />
 
         {/* DS Section */}
-        <div className="flex flex-col items-center scale-90 sm:scale-95 md:scale-100">
+        <div className="flex flex-col items-center">
           {/* --- TOP DS SCREEN --- */}
           <div className="flex justify-center items-center border rounded-2xl w-[20rem] sm:w-md md:w-152 h-40 sm:h-60 md:h-72 bg-ds-pink border-deep-brown">
             <img
@@ -50,8 +50,12 @@ export default function Projects() {
                   <div className="font-bold text-[3vw] sm:text-2xl mb-1 text-soft-pink">
                     {active.title}
                   </div>
-                  <p className="font-light italic text-[2vw] md:text-sm ">{active.tech}</p>
-                  <p className="font-light italic text-[2vw] md:text-sm ">{active.date}</p>
+                  <p className="font-light italic text-[2vw] md:text-sm ">
+                    {active.tech}
+                  </p>
+                  <p className="font-light italic text-[2vw] md:text-sm ">
+                    {active.date}
+                  </p>
                 </div>
 
                 <ul className="list-disc pl-4 space-y-1 text-[2vw] md:text-sm ">
