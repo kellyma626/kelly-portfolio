@@ -18,9 +18,8 @@ export const experience = [
     location: "Remote",
     image: "/logos/nasa-logo.png",
     bullets: [
-      "Researched AI and control methods (PID, MPC-lite, reinforcement learning) for adaptive moisture and nutrient management in microgravity plant systems.",
-      "Contributed to a competitive $10K NASA seed funding proposal, evaluating technical feasibility and alignment with NASA research priorities.",
-      "Authored proposal content collaboratively with 5 subject matter experts to synthesize findings and present deliverables to NASA reviewers.",
+      "Researched AI and control methods (PID, MPC-lite, reinforcement learning) for adaptive moisture and nutrient management in microgravity plant systems, informing a competitive $10K NASA seed funding proposal.",
+      "Authored proposal content with 5 subject matter experts to evalaute feasibility and align with NASA priorities.",
     ],
   },
   {
@@ -31,8 +30,7 @@ export const experience = [
     image: "/logos/btt-logo.jpeg",
     bullets: [
       "Selected from 4,000+ applicants for a year-long AI fellowship applying CRISP-DM to real-world ML projects.",
-      "Developed foundational AI/ML skills through hands-on projects with neural networks, sentiment analysis, and industry tools.",
-      "Earned Machine Learning Foundations certification from Cornell University.",
+      "Developed foundational AI/ML skills through hands-on projects with neural networks, sentiment analysis, and industry tools, earning Machine Learning Foundations certification from Cornell University.",
     ],
   },
   {
@@ -42,8 +40,7 @@ export const experience = [
     location: "Riverside, CA",
     image: "/logos/ucr-logo.png",
     bullets: [
-      "Implemented models (Random Forests, SVM, XGBoost, MLP, Ensemble Voter) to classify 3,360 samples of student vs AI-generated code using TF-IDF and CodeBERT embeddings.",
-      "Supported academic integrity research in early CS education through experimental design and performance evaluation.",
+      "Implemented models (Random Forests, SVM, XGBoost, MLP, Ensemble Voter) to classify 3,360 samples of student vs AI-generated code using TF-IDF and CodeBERT embeddings, supporting integrity in early CS education.",
       "Collaborated weekly with faculty and Ph.D. mentors to refine experimental methodology and interpret findings.",
     ],
   },
