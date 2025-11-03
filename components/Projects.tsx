@@ -50,11 +50,11 @@ export default function Projects() {
                   <div className="font-bold text-[3vw] sm:text-2xl mb-1 text-soft-pink">
                     {active.title}
                   </div>
-                  <p className="font-light italic text-[1.8vw] md:text-sm ">{active.tech}</p>
-                  <p className="font-light italic text-[1.8vw] md:text-sm ">{active.date}</p>
+                  <p className="font-light italic text-[2vw] md:text-sm ">{active.tech}</p>
+                  <p className="font-light italic text-[2vw] md:text-sm ">{active.date}</p>
                 </div>
 
-                <ul className="list-disc pl-4 space-y-1 text-[1.8vw] md:text-sm ">
+                <ul className="list-disc pl-4 space-y-1 text-[2vw] md:text-sm ">
                   {active.screen2.map((line, i) => (
                     <li key={i}>{line}</li>
                   ))}
@@ -86,7 +86,7 @@ export default function Projects() {
 
             <div className="rounded-2xl border border-soft-gray bg-[#fff1ee] w-56 sm:w-[20rem] md:w-104 h-32 sm:h-48 md:h-60 mx-2 sm:mx-3 overflow-y-auto">
               <div className="m-3 sm:m-6 text-xs sm:text-sm space-y-3 sm:space-y-4">
-                <ul className="list-disc pl-4 space-y-1 text-[1.8vw] md:text-sm">
+                <ul className="list-disc pl-4 space-y-1 text-[2vw] md:text-sm">
                   {active.screen3.points.map((p, i) => (
                     <li key={i}>{p}</li>
                   ))}
