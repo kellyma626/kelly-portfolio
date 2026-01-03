@@ -45,7 +45,7 @@ export const projects = [
       ],
     },
   },
-    {
+  {
     id: "cave",
     title: "Cave Adventure - Terminal-Based C++ Game",
     tech: "C++, GitHub, GitHub Actions, GoogleTest",
@@ -78,7 +78,7 @@ export const projects = [
     screen3: {
       points: [
         "Implemented Supabase flows for async mood entry creation and retrieval, managing 120+ entries seamlessly.",
-        "Designed all 5 screens, creating a cohesive, playful mobile UI with custom mood-to-image/color mappings."
+        "Designed all 5 screens, creating a cohesive, playful mobile UI with custom mood-to-image/color mappings.",
       ],
       links: [
         {
@@ -88,5 +88,4 @@ export const projects = [
       ],
     },
   },
-
 ];

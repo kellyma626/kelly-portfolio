@@ -10,7 +10,13 @@ export default function Skills() {
           Skills
         </div>
         <div className="border h-px border-soft-gray w-full" />
-        <Image src={Miffy} alt="Miffy" width={120} height={120} className="w-15" />
+        <Image
+          src={Miffy}
+          alt="Miffy"
+          width={120}
+          height={120}
+          className="w-15"
+        />
       </div>
 
       <div className="flex flex-wrap gap-5 justify-center mt-5">
